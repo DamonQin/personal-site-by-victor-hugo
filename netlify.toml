@@ -1,6 +1,6 @@
 [build]
-  command = "env HUGO_BASEURL = 'https://www.damonqin.tech/' npm run build"
+  command = "npm run build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "env HUGO_BASEURL = 'https://www.damonqin.tech/' npm run build-preview"
+  command = "npm run build-preview"
