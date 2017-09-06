@@ -1,2 +1,8 @@
 node_modules/
 dist/
+site/public/
+tmp/
+sass/
+.sass-cache/
+
+.DS_Store

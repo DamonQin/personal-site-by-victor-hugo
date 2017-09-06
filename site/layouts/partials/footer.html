@@ -1,4 +1,18 @@
-  <script src="app.js"></script>
+<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+<script>
+  window.onload = function() {
+    document.body.className = '';
+  }
+  window.ontouchmove = function() {
+    return false;
+  }
+  window.onorientationchange = function() {
+    document.body.scrollTop = 0;
+  }
+</script>
 
-  </body>
+{{ partial "js.html" . }}
+<script src="app.js"></script>
+</body>
+
 </html>

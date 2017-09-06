@@ -1,9 +1,31 @@
 {{ partial "header" . }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
+<div id="wrapper">
+  <div id="bg" {{ with .Site.Params.bg_scroll}} class="no-scroll" {{end}}></div>
+  <div id="overlay"></div>
+  <div id="main">
 
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
+    <!-- Header -->
+    <header id="header">
+      <h1>{{ .Site.Params.name | safeHTML }}</h1>
+      <p>{{ .Site.Params.about | safeHTML }}</p>
+      <nav>
+        <ul>
+          {{ range .Site.Params.social }}
+          <li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <span class="copyright">&copy; {{ .Site.Params.copyright }}. Design is based on: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</span>
+      <br/>
+      <span class="copyright">Powered by the <a href="https://github.com/sethmacleod/aerial" target="_blank">Academic theme</a> for <a href="https://www.gohugo.io/" target="_blank">Hugo.</a></span>
+    </footer>
+
+  </div>
+</div>
 
 {{ partial "footer" . }}

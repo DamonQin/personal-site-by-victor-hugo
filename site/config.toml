@@ -1,9 +1,44 @@
-baseurl = "/"
 languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Hi, I'm Damon Qin!"
+baseurl = "/"
+theme = "aerial"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+  name = "Damon Qin"
+  about = """
+  <span>I LIKE ELEGANT CODE</span>
+  <span>&nbsp;&bull;&nbsp;</span>
+  <span>I ENJOY BEAUTIFUL DESIGN</span>
+  <span>&nbsp;&bull;&nbsp;</span>
+  <span>I'M WRITING PROGRAMS</span>
+  """
+  copyright = "2017 Damon Qin"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = "asdf"
+  favicon = "favicon.ico"
+  custom_css = ["css/fix-theme.css"]
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "Dribbble"
+  icon = "dribbble"
+  link = "#"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "#"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "#"
