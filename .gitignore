@@ -4,5 +4,9 @@ site/public/
 tmp/
 sass/
 .sass-cache/
+.github/
 
 .DS_Store
+
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
