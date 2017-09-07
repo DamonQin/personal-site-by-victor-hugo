@@ -22,7 +22,7 @@ theme = "aerial"
 
 [[menu.main]]
   name = "Blog<sup>[beta]</sup>"
-  url = "https://bolg.damonqin.tech"
+  url = "https://blog.damonqin.tech/"
   weight = 1
 
 [[menu.main]]
