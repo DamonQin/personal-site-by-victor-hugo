@@ -18,6 +18,20 @@ theme = "aerial"
   favicon = "favicon.ico"
   custom_css = ["css/fix-theme.css"]
 
+
+
+[[menu.main]]
+  name = "Blog<sup>[beta]</sup>"
+  url = "https://bolg.damonqin.tech"
+  weight = 1
+
+[[menu.main]]
+  name = "About Me"
+  url = "https://resume.damonqin.tech"
+  weight = 2
+
+
+
 [[params.social]]
   medium = "Github"
   icon = "github"
