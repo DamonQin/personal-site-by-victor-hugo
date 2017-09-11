@@ -14,7 +14,7 @@ theme = "aerial"
   """
   copyright = "2017 Damon Qin"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = "asdf"
+  bg_scroll = ""
   favicon = "favicon.ico"
   custom_css = ["css/fix-theme.css"]
 
