@@ -60,4 +60,4 @@ theme = "aerial"
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "mailto:received@icloud.com?subject=From%20damonqin.tech&body=Body-goes-here"
+  link = "mailto:received@icloud.com"
