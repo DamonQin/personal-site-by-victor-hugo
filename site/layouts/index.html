@@ -10,7 +10,7 @@
       <h1>{{ .Site.Params.name | safeHTML }}</h1>
       <p>{{ .Site.Params.about | safeHTML }}</p>
       {{ range .Site.Menus.main }}
-      <a class="button" href="{{ .URL | safeURL }}">{{ .Name | safeHTML }}</a>
+      <a class="button" target="_blank" href="{{ .URL | safeURL }}">{{ .Name | safeHTML }}</a>
       {{ end }}
       <nav>
         <ul>
